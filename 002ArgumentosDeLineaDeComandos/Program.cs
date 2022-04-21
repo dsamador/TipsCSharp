@@ -4,9 +4,7 @@ int n = 0;
 
 //verificar que se tenga la cantidad de argumentos
 if (args.Length != 2)
-{
     Console.WriteLine("Debe poner el nombre y las repeticiones");
-}
 else
 {
     //obtener los argumentos
