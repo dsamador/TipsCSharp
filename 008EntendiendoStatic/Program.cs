@@ -38,29 +38,37 @@
 
 //Creamos dos objetos
 
-ConstructorEstatico obj1 
-    = new ConstructorEstatico();
-ConstructorEstatico obj2 
-    = new ConstructorEstatico();
+//ConstructorEstatico obj1 
+//    = new ConstructorEstatico();
+//ConstructorEstatico obj2 
+//    = new ConstructorEstatico();
+
+//Console.WriteLine("Sin cambio");
+//obj1.muestraDatos();
+//obj2.muestraDatos();
+////cambiamos
+//obj1.ponValor(400);
+//obj1.ponNumero(555);
+//Console.WriteLine("Con cambios");
+//obj1.muestraDatos();
+//obj2.muestraDatos();
+////creamos otra instancia
+//ConstructorEstatico obj3
+//    = new ConstructorEstatico();
+//Console.WriteLine("Despues de la instancia");
+//obj1.muestraDatos();
+//obj2.muestraDatos();
+//obj3.muestraDatos();
+
 
 Console.WriteLine("Sin cambio");
-obj1.muestraDatos();
-obj2.muestraDatos();
+ClaseEstatica.muestraDatos();
+
 //cambiamos
-obj1.ponValor(400);
-obj1.ponNumero(555);
+ClaseEstatica.ponValor(400);
+ClaseEstatica.ponNumero(400);
 Console.WriteLine("Con cambios");
-obj1.muestraDatos();
-obj2.muestraDatos();
-//creamos otra instancia
-ConstructorEstatico obj3
-    = new ConstructorEstatico();
-Console.WriteLine("Despues de la instancia");
-obj1.muestraDatos();
-obj2.muestraDatos();
-obj3.muestraDatos();
-
-
+ClaseEstatica.muestraDatos();
 
 
 
