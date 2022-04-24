@@ -1,10 +1,9 @@
-﻿
-// Optimizando if con k-maps
+﻿// Optimizando if con k-maps
 
 //Programa que indica si una persona puede comprar un auto basado en las siguientes reglas.
 //Es mayor de edad, tiene el dinero y tiene fiador
 //No es mayor de edad, tiene el dinero y tiene fiador
-//Es mayor de edad, no tiene el dinero, pero tiene fiador
+//Es mayor de edad, no tiene el dinero y tiene fiador
 //No es mayor de edad, tiene el dinero y no tinene fiador
 
 int edad = 20;
@@ -30,6 +29,6 @@ if ((edad < 18 && dinero >= 35000) || (edad >= 18 && fiador == true))
 else
     Console.WriteLine("No lo puede comprar");
 
-//11:14
+
 
 
