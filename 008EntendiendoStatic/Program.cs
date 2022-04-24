@@ -38,25 +38,23 @@
 
 //Creamos dos objetos
 
-EstaticoEnConstructor obj1 = new EstaticoEnConstructor();
-EstaticoEnConstructor obj2 = new EstaticoEnConstructor();
+ConstructorEstatico obj1 
+    = new ConstructorEstatico();
+ConstructorEstatico obj2 
+    = new ConstructorEstatico();
 
 Console.WriteLine("Sin cambio");
 obj1.muestraDatos();
 obj2.muestraDatos();
-
 //cambiamos
 obj1.ponValor(400);
 obj1.ponNumero(555);
-
 Console.WriteLine("Con cambios");
-
 obj1.muestraDatos();
 obj2.muestraDatos();
-
 //creamos otra instancia
-//resetea el dato estatico
-EstaticoEnConstructor obj3 = new EstaticoEnConstructor();
+ConstructorEstatico obj3
+    = new ConstructorEstatico();
 Console.WriteLine("Despues de la instancia");
 obj1.muestraDatos();
 obj2.muestraDatos();
