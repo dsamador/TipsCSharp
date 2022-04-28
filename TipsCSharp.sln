@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006FormatoEnWrite y WriteLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007Const y ReadOnly", "007Const y ReadOnly\007Const y ReadOnly.csproj", "{5908D6F1-93CC-4869-A8D2-E1F71B713F82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008EntendiendoStatic", "008EntendiendoStatic\008EntendiendoStatic.csproj", "{BF114B94-7711-4C21-94C2-1D6DF24CDE09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008EntendiendoStatic", "008EntendiendoStatic\008EntendiendoStatic.csproj", "{BF114B94-7711-4C21-94C2-1D6DF24CDE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009Modificadores de parametros de metodos", "009Modificadores de parametros de metodos\009Modificadores de parametros de metodos.csproj", "{E5050C9B-AF07-44BB-A1CA-3F683CD7FDC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BF114B94-7711-4C21-94C2-1D6DF24CDE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF114B94-7711-4C21-94C2-1D6DF24CDE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF114B94-7711-4C21-94C2-1D6DF24CDE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5050C9B-AF07-44BB-A1CA-3F683CD7FDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5050C9B-AF07-44BB-A1CA-3F683CD7FDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5050C9B-AF07-44BB-A1CA-3F683CD7FDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5050C9B-AF07-44BB-A1CA-3F683CD7FDC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
