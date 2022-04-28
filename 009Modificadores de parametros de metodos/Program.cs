@@ -24,6 +24,10 @@ IntercambioReferencia(ref a, ref b);
 Console.WriteLine($"Despues del intercambio por ref a = {a}, b = {b}");
 Console.WriteLine();
 
+//Hacemos la invocacion para calcular sumatoria y factorial
+Calculador(cantidad, out sumatoria, out factorial);
+Console.WriteLine($"Sumatoria = {sumatoria}, factorial = {factorial}");
+Console.WriteLine();
 
 //metodo normal
 static int SumaNormal(int x, int y)
@@ -49,4 +53,17 @@ static void IntercambioReferencia(ref int x, ref int y)
     temp = x;
     x = y;
     y = temp;
+}
+
+static void Calculador(int n, out int s, out int f)
+{
+    s = 0;
+    f = 1;
+    int m = 0;
+
+    for(m = 1; m <= n; m++)
+    {
+        s = s + m;
+        f = f * m;
+    }
 }
