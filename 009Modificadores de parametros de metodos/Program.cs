@@ -29,6 +29,13 @@ Calculador(cantidad, out sumatoria, out factorial);
 Console.WriteLine($"Sumatoria = {sumatoria}, factorial = {factorial}");
 Console.WriteLine();
 
+//Calcular varios promedios con un numero diferente de parametros
+prom = Promedio(2.5, 6.7, 9.8);
+Console.WriteLine($"El promedio es {prom}");
+prom = Promedio(2.5, 6.7, 9.8, 7, 34, 2.3);
+Console.WriteLine($"El promedio es {prom}");
+Console.WriteLine();
+
 //metodo normal
 static int SumaNormal(int x, int y)
 {
@@ -66,4 +73,17 @@ static void Calculador(int n, out int s, out int f)
         s = s + m;
         f = f * m;
     }
+}
+
+static double Promedio(params double [] valores)
+{
+    double suma = 0.0;
+    double prom = 0.0;
+    int n = 0;
+    for (n = 0; n < valores.Length; n++)
+    {
+        suma += valores[n];
+    }
+    prom = suma / valores.Length; 
+    return prom;
 }
