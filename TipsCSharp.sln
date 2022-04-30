@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008EntendiendoStatic", "008
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009Modificadores de parametros de metodos", "009Modificadores de parametros de metodos\009Modificadores de parametros de metodos.csproj", "{E5050C9B-AF07-44BB-A1CA-3F683CD7FDC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010Boxing y Unboxing", "010Boxing y Unboxing\010Boxing y Unboxing.csproj", "{804A66EF-4239-4E48-95FF-B74859384086}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{E5050C9B-AF07-44BB-A1CA-3F683CD7FDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5050C9B-AF07-44BB-A1CA-3F683CD7FDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5050C9B-AF07-44BB-A1CA-3F683CD7FDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804A66EF-4239-4E48-95FF-B74859384086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804A66EF-4239-4E48-95FF-B74859384086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804A66EF-4239-4E48-95FF-B74859384086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804A66EF-4239-4E48-95FF-B74859384086}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
