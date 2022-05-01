@@ -13,6 +13,7 @@ arrayList.Add(9);
 int resultado = (int)arrayList[0] + (int)arrayList[1];
 Console.WriteLine($"El resultado es {resultado}");
 
+
 // Variable normal
 int valor = 5;
 
