@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009Modificadores de paramet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010Boxing y Unboxing", "010Boxing y Unboxing\010Boxing y Unboxing.csproj", "{804A66EF-4239-4E48-95FF-B74859384086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011 Uso de random", "011 Uso de random\011 Uso de random.csproj", "{D203B8DB-65D3-43D0-BFEA-15EC18ECA49E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011 Uso de random", "011 Uso de random\011 Uso de random.csproj", "{D203B8DB-65D3-43D0-BFEA-15EC18ECA49E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012 Arreglos Jagged", "012 Arreglos Jagged\012 Arreglos Jagged.csproj", "{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{D203B8DB-65D3-43D0-BFEA-15EC18ECA49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D203B8DB-65D3-43D0-BFEA-15EC18ECA49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D203B8DB-65D3-43D0-BFEA-15EC18ECA49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

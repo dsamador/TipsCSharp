@@ -40,12 +40,7 @@ random.NextBytes(bytes);
 for (n = 0; n < 3; n++)
     Console.WriteLine(bytes[n]);
 
-/*Otra manera de instanciar a random es poniendo
-una semilla o seed la cual indica la posicion
-dentro de la tabla a donde queremos que se empiecen
-a generar los numeros. Esto se hacia antes.*/
-/*En este caso la semilla es la cantidad de 
-ticks desde que se encendio el pc*/
+
 Random random2 = new Random((int)DateTime.Now.Ticks
     & 0x0000FFFF);
 
