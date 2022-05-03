@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011 Uso de random", "011 Us
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012 Arreglos Jagged", "012 Arreglos Jagged\012 Arreglos Jagged.csproj", "{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 Uso de foreach", "13 Uso de foreach\13 Uso de foreach.csproj", "{E282A463-2F38-4B89-B5DE-BE442ABC6A8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E282A463-2F38-4B89-B5DE-BE442ABC6A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E282A463-2F38-4B89-B5DE-BE442ABC6A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E282A463-2F38-4B89-B5DE-BE442ABC6A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E282A463-2F38-4B89-B5DE-BE442ABC6A8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

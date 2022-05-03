@@ -23,8 +23,7 @@ for (n = 0; n < 4; n++)
     }
     Console.WriteLine();
 }
-//Imprimir datos
-for (n = 0; n < 4; n++)
+for (n = 0; n < 4; n++)//Imprimir datos
 {
     for (m = 0; m < numeros[n].GetLength(0); m++)    
         Console.Write($"{numeros[n][m]},");        
