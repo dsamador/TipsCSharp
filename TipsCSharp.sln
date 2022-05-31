@@ -21,9 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010Boxing y Unboxing", "010
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011 Uso de random", "011 Uso de random\011 Uso de random.csproj", "{D203B8DB-65D3-43D0-BFEA-15EC18ECA49E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012 Arreglos Jagged", "012 Arreglos Jagged\012 Arreglos Jagged.csproj", "{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "012 Arreglos Jagged", "012 Arreglos Jagged\012 Arreglos Jagged.csproj", "{74F6FD25-65B8-4281-AB6A-3CCF473FD7BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 Uso de foreach", "13 Uso de foreach\13 Uso de foreach.csproj", "{E282A463-2F38-4B89-B5DE-BE442ABC6A8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "013 Uso de foreach", "13 Uso de foreach\013 Uso de foreach.csproj", "{E282A463-2F38-4B89-B5DE-BE442ABC6A8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "014Arreglo como parametro", "014Arreglo como parametro\014Arreglo como parametro.csproj", "{2497CB63-E2F3-41B0-8455-3D9B7124631E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015 Paso por copia y por referencia", "015 Paso por copia y por referencia\015 Paso por copia y por referencia.csproj", "{DD0EB83F-4C49-40CF-AF4B-292E88F8D709}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{E282A463-2F38-4B89-B5DE-BE442ABC6A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E282A463-2F38-4B89-B5DE-BE442ABC6A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E282A463-2F38-4B89-B5DE-BE442ABC6A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2497CB63-E2F3-41B0-8455-3D9B7124631E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2497CB63-E2F3-41B0-8455-3D9B7124631E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2497CB63-E2F3-41B0-8455-3D9B7124631E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2497CB63-E2F3-41B0-8455-3D9B7124631E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0EB83F-4C49-40CF-AF4B-292E88F8D709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0EB83F-4C49-40CF-AF4B-292E88F8D709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0EB83F-4C49-40CF-AF4B-292E88F8D709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0EB83F-4C49-40CF-AF4B-292E88F8D709}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

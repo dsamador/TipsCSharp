@@ -20,4 +20,12 @@ foreach (var item in ciudades)
 foreach (var item in valores)
     Console.WriteLine($"El numero es {item}");
 
+for (int i = 0; i < ciudades.Count; i++)
+{
+    Console.WriteLine($"La ciudad es {ciudades[i]}");
+}
 
+for (int i = 0; i < valores.Length; i++)
+{
+    Console.WriteLine($"El numero es {valores[i]}");
+}
