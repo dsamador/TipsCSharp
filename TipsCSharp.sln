@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "017 Entendiendo la clase Ob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018 Override a Object", "018 Override a Object\018 Override a Object.csproj", "{B745343F-5FE3-4A1E-B260-D05200FD5D95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019 La clase Char", "019 La clase Char\019 La clase Char.csproj", "{B3E478C7-F360-4039-BF5E-3AD22169460C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{B745343F-5FE3-4A1E-B260-D05200FD5D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B745343F-5FE3-4A1E-B260-D05200FD5D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B745343F-5FE3-4A1E-B260-D05200FD5D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E478C7-F360-4039-BF5E-3AD22169460C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E478C7-F360-4039-BF5E-3AD22169460C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E478C7-F360-4039-BF5E-3AD22169460C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E478C7-F360-4039-BF5E-3AD22169460C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
