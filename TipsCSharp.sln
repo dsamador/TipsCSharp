@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "015 Paso por copia y por re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "016 Enumeraciones", "016 Enumeraciones\016 Enumeraciones.csproj", "{896AE9C0-A85E-4B81-A9CD-C79D570C9F80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017 Entendiendo la clase Object", "017 Entendiendo la clase Object\017 Entendiendo la clase Object.csproj", "{43206019-8036-4227-AF9D-7428F7E57004}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "017 Entendiendo la clase Object", "017 Entendiendo la clase Object\017 Entendiendo la clase Object.csproj", "{43206019-8036-4227-AF9D-7428F7E57004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018 Override a Object", "018 Override a Object\018 Override a Object.csproj", "{B745343F-5FE3-4A1E-B260-D05200FD5D95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{43206019-8036-4227-AF9D-7428F7E57004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43206019-8036-4227-AF9D-7428F7E57004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43206019-8036-4227-AF9D-7428F7E57004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B745343F-5FE3-4A1E-B260-D05200FD5D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B745343F-5FE3-4A1E-B260-D05200FD5D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B745343F-5FE3-4A1E-B260-D05200FD5D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B745343F-5FE3-4A1E-B260-D05200FD5D95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
