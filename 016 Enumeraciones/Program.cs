@@ -31,4 +31,4 @@ static void calcularEspacio(tipoImagen imagen, double tamanoImg)
 
     Console.WriteLine($"La dimension final es {espacio}");
 }
-enum tipoImagen { BMP, JPG, PNG, GIF, TIFF };
+enum tipoImagen { BMP = 15, JPG, PNG, GIF, TIFF }; 
