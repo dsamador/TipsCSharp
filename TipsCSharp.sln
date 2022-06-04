@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018 Override a Object", "01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019 La clase Char", "019 La clase Char\019 La clase Char.csproj", "{B3E478C7-F360-4039-BF5E-3AD22169460C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020 Uso de la clase string", "020 Uso de la clase string\020 Uso de la clase string.csproj", "{E76C8DBE-3E30-437E-832F-241F508332A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{B3E478C7-F360-4039-BF5E-3AD22169460C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E478C7-F360-4039-BF5E-3AD22169460C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3E478C7-F360-4039-BF5E-3AD22169460C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76C8DBE-3E30-437E-832F-241F508332A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76C8DBE-3E30-437E-832F-241F508332A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76C8DBE-3E30-437E-832F-241F508332A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76C8DBE-3E30-437E-832F-241F508332A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
