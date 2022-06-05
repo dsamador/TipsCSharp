@@ -33,11 +33,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "016 Enumeraciones", "016 En
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "017 Entendiendo la clase Object", "017 Entendiendo la clase Object\017 Entendiendo la clase Object.csproj", "{43206019-8036-4227-AF9D-7428F7E57004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018 Override a Object", "018 Override a Object\018 Override a Object.csproj", "{B745343F-5FE3-4A1E-B260-D05200FD5D95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "018 Override a Object", "018 Override a Object\018 Override a Object.csproj", "{B745343F-5FE3-4A1E-B260-D05200FD5D95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019 La clase Char", "019 La clase Char\019 La clase Char.csproj", "{B3E478C7-F360-4039-BF5E-3AD22169460C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "019 La clase Char", "019 La clase Char\019 La clase Char.csproj", "{B3E478C7-F360-4039-BF5E-3AD22169460C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020 Uso de la clase string", "020 Uso de la clase string\020 Uso de la clase string.csproj", "{E76C8DBE-3E30-437E-832F-241F508332A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "020 Uso de la clase string", "020 Uso de la clase string\020 Uso de la clase string.csproj", "{E76C8DBE-3E30-437E-832F-241F508332A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021 Uso avanzado de for", "021 Uso avanzado de for\021 Uso avanzado de for.csproj", "{BAB73411-EA80-4EF4-8183-FEEBAAF739D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{E76C8DBE-3E30-437E-832F-241F508332A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E76C8DBE-3E30-437E-832F-241F508332A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E76C8DBE-3E30-437E-832F-241F508332A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB73411-EA80-4EF4-8183-FEEBAAF739D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB73411-EA80-4EF4-8183-FEEBAAF739D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB73411-EA80-4EF4-8183-FEEBAAF739D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB73411-EA80-4EF4-8183-FEEBAAF739D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
