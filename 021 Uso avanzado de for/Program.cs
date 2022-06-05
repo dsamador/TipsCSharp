@@ -33,3 +33,5 @@ static bool comparacion(int a, int b)
 
 for (n= 1, m= 1; comparacion(n,m); n++, m = m + 3)
     Console.WriteLine($"n={n}, m={m}");
+
+
