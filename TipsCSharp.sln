@@ -49,9 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "024 Operadores de Null", "0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "025 Verbatim e interpolacion", "025 Verbatim e interpolacion\025 Verbatim e interpolacion.csproj", "{269EE6B0-07CE-4891-AC60-08E3683E62E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026 Inicializadores de Objetos", "026 Inicializadores de Objetos\026 Inicializadores de Objetos.csproj", "{3C5BCD94-1619-41B7-AFD5-2C3E5F00A2D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "026 Inicializadores de Objetos", "026 Inicializadores de Objetos\026 Inicializadores de Objetos.csproj", "{3C5BCD94-1619-41B7-AFD5-2C3E5F00A2D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "027 Mas sobre propiedades", "027 Mas sobre propiedades\027 Mas sobre propiedades.csproj", "{7AEB6A01-1313-45DF-8918-354D44789540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "027 Mas sobre propiedades", "027 Mas sobre propiedades\027 Mas sobre propiedades.csproj", "{7AEB6A01-1313-45DF-8918-354D44789540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "028 Clases y metodos parciales", "028 Clases y metodos parciales\028 Clases y metodos parciales.csproj", "{30137382-671D-4342-85F4-B4ECCC22890B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{7AEB6A01-1313-45DF-8918-354D44789540}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AEB6A01-1313-45DF-8918-354D44789540}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AEB6A01-1313-45DF-8918-354D44789540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30137382-671D-4342-85F4-B4ECCC22890B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30137382-671D-4342-85F4-B4ECCC22890B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30137382-671D-4342-85F4-B4ECCC22890B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30137382-671D-4342-85F4-B4ECCC22890B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
