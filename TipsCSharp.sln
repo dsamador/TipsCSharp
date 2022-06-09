@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "025 Verbatim e interpolacio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026 Inicializadores de Objetos", "026 Inicializadores de Objetos\026 Inicializadores de Objetos.csproj", "{3C5BCD94-1619-41B7-AFD5-2C3E5F00A2D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "027 Mas sobre propiedades", "027 Mas sobre propiedades\027 Mas sobre propiedades.csproj", "{7AEB6A01-1313-45DF-8918-354D44789540}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{3C5BCD94-1619-41B7-AFD5-2C3E5F00A2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C5BCD94-1619-41B7-AFD5-2C3E5F00A2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C5BCD94-1619-41B7-AFD5-2C3E5F00A2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AEB6A01-1313-45DF-8918-354D44789540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AEB6A01-1313-45DF-8918-354D44789540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AEB6A01-1313-45DF-8918-354D44789540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AEB6A01-1313-45DF-8918-354D44789540}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
