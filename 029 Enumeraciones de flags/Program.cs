@@ -46,24 +46,29 @@ static void DibujaHamburguesa(Condimentos condimento)
 
 
 //Colocamos un condimento
-Condimentos condimentos = Condimentos.Queso;
-DibujaHamburguesa(condimentos);
+Condimentos ingredientes = Condimentos.Queso;
+DibujaHamburguesa(ingredientes);
 
 //Adicionamos otro condimento
-condimentos = condimentos | Condimentos.Tomate;
-DibujaHamburguesa(condimentos);
+ingredientes = ingredientes | Condimentos.Tomate;
+DibujaHamburguesa(ingredientes);
 
 //Adicionamos otros condimentos
-condimentos = condimentos | Condimentos.Lechuga | Condimentos.Cebolla;
-DibujaHamburguesa(condimentos);
+ingredientes = ingredientes | Condimentos.Lechuga | Condimentos.Cebolla;
+DibujaHamburguesa(ingredientes);
 
 //Quitamos un condimento
-condimentos -= Condimentos.Cebolla;
-DibujaHamburguesa(condimentos);
+ingredientes -= Condimentos.Cebolla;
+DibujaHamburguesa(ingredientes);
 
 //Limpiamos
-condimentos = Condimentos.nada;
-DibujaHamburguesa(condimentos);
+ingredientes = Condimentos.nada;
+DibujaHamburguesa(ingredientes);
+
+Console.WriteLine(
+           "\nAll possible combinations of values with FlagsAttribute:");
+for (int val = 0; val <= 16; val++)
+    Console.WriteLine("{0,3} - {1:G}", val, (Condimentos)val);
 
 [Flags]
 enum Condimentos
