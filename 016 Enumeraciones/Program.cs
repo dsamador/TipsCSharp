@@ -5,7 +5,7 @@ Console.WriteLine("Dame la dimension de la imagen");
 dato = Console.ReadLine();
 tamanoImg = Convert.ToDouble(dato);
 
-calcularEspacio(tipoImagen., tamanoImg);
+calcularEspacio(tipoImagen.BMP, tamanoImg);
 
 static void calcularEspacio(tipoImagen imagen, double tamanoImg)
 {

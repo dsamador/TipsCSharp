@@ -63,6 +63,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "031 Reimplementacion de int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "032 Implementacion virtual de interfaz", "032 Implementacion virtual de interfaz\032 Implementacion virtual de interfaz.csproj", "{B80DE584-62E4-471D-9634-909BA4267579}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "033 Restricciones a clases genericas", "033 Restricciones a clases genericas\033 Restricciones a clases genericas.csproj", "{CCCFB5B6-BF2E-4560-A1F2-00F18A8DB37D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{B80DE584-62E4-471D-9634-909BA4267579}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B80DE584-62E4-471D-9634-909BA4267579}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B80DE584-62E4-471D-9634-909BA4267579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCFB5B6-BF2E-4560-A1F2-00F18A8DB37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCFB5B6-BF2E-4560-A1F2-00F18A8DB37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCFB5B6-BF2E-4560-A1F2-00F18A8DB37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCFB5B6-BF2E-4560-A1F2-00F18A8DB37D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

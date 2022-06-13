@@ -16,5 +16,3 @@ Console.WriteLine("-------");
 //podemos usar la version original
 ((Prueba)o3).calcular(12.5);
 
-Test2 o4 = new Test2(155);
-//o4.calcular();
