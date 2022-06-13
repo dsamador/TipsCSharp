@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "032 Implementacion virtual 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "033 Restricciones a clases genericas", "033 Restricciones a clases genericas\033 Restricciones a clases genericas.csproj", "{CCCFB5B6-BF2E-4560-A1F2-00F18A8DB37D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "034 Uso de operadores shift", "034 Uso de operadores shift\034 Uso de operadores shift.csproj", "{EAAB1EE9-9DDD-41BE-933C-B0B89D8EF21A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{CCCFB5B6-BF2E-4560-A1F2-00F18A8DB37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCCFB5B6-BF2E-4560-A1F2-00F18A8DB37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCCFB5B6-BF2E-4560-A1F2-00F18A8DB37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAB1EE9-9DDD-41BE-933C-B0B89D8EF21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAB1EE9-9DDD-41BE-933C-B0B89D8EF21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAB1EE9-9DDD-41BE-933C-B0B89D8EF21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAB1EE9-9DDD-41BE-933C-B0B89D8EF21A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
