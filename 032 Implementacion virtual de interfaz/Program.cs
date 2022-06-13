@@ -1,6 +1,6 @@
-﻿using _031_Reimplementacion_de_interfaces_en_herencia;
+﻿using _032_Implementacion_virtual_de_interfaz;
 
-//Reimplementacion de interfaces en herencia
+//Implementacion virtual de interfaces
 Prueba o1 = new Prueba(45);
 o1.calcular(12.5);
 Console.WriteLine("-------");
@@ -12,9 +12,7 @@ Test o3 = new Test(45);
 o3.calcular(12.5);
 Console.WriteLine("-------");
 
-//Gracias al polimorfismo
-//podemos usar la version original
+//En este punto el polimorfismo no funciona.
 ((Prueba)o3).calcular(12.5);
 
-Test2 o4 = new Test2(155);
-//o4.calcular();
+
