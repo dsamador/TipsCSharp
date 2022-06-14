@@ -11,8 +11,8 @@ for (a = 0; a < 2; a++)
         //r1 = (a == 0 && b == 1) || b == 0;
         //r2 = a == 0 && b == 1 || b == 0;
 
-        r1 = (a == 0 || b == 1) && a == 0;
-        r2 = a == 0 || b == 1 && a == 0;
+        r1 = (a == 0 || b == 1) && a == 1;
+        r2 = a == 0 || b == 1 && a == 1;
 
         Console.ForegroundColor = ConsoleColor.White;
         Console.Write($"{a} {b}");
